@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+
+}
+
+.row{
+    align-items: center !important;
+}
+
+/* navbar section  */
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 18px !important;
+    color: #02EBC1;
+}
+.navbar-toggler {
+    background-color: #02EBC1 !important;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #19141C !important;
+}
+
+.navbar .btn-outline-success{
+    padding: 6px 40px;
+    margin-left: 20px;
+}
+
+.btn-outline-success{
+    background-color: transparent;
+    color: #02EBC1;
+    border: 1px solid #02EBC1;
+}
+.btn-outline-success:hover{
+    background-color: #02EBC1;
+    border: 1px solid #02EBC1;
+}
+.btn-outline-success:active{
+    background-color: #02EBC1 !important;
+}
+
+/* hero section here  */
+
+.heroSec{
+    height: auto;
+    width: 100%;
+    padding: 60px 0;
+    background-color: #19141C;
+}
+
+.heroSec h1{
+    color: #02EBC1;
+    font-size: 60px;
+}
+.heroSec p{
+    color: #02ebc083;
+}
+
+.heroSec .btn-outline-success{
+    padding: 8px 50px !important;
+}
+
+/* about section here  */
+
+.aboutSec{
+    height: auto;
+    width: 100%;
+    padding: 50px 0;
+    color: #19141C;
+    background-color: #02EBC1;
+}
+
+.aboutSec .btn-outline-success{
+    background-color: transparent;
+    color: #19141C;
+    border: 1px solid #19141C;
+    padding: 8px 20px !important;
+}
+.aboutSec .btn-outline-success:hover{
+    background-color: #19141C;
+    color:  #02EBC1;
+    border: 1px solid #19141C;
+    
+}
+
+.aboutSec p{
+    padding: 15px 0;
+}
+
+.aboutSec hr{
+    width: 15%;
+    border: 1px solid #19141C;
+    opacity: 1;
+    margin-top: -5px;
+}
+
+/* blog section  */
+
+.blogSec{
+    height: auto;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #19141C;
+}
+.blogSec h2{
+    color: #fff;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.blogSec .btn-outline-success{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 8px 40px;
+}
+.blogSec img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+  
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    background: #ECE9E6;
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    margin-bottom: 20px;
+  
+  }
+  
+  
+  
+.card__body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  
+  
+.tag {
+    align-self: flex-start;
+    padding: .25em .75em;
+    border-radius: 1em;
+    font-size: .75rem;
+  }
+  
+.tag + .tag {
+    margin-left: .5em;
+    background-color: #02EBC1;
+  }
+  
+.tag-color {
+    background: #02EBC1;
+  background: linear-gradient(to bottom, #02EBC1, #02ebc070);
+    color: #fafafa;
+    font-size: 13px;
+  }
+.blogSec a{
+    color: #02EBC1;
+}
+
+  
+.card__body h4 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+  }
+  
+.card__footer {
+
+    padding: 1rem;
+    margin-top: auto;
+  }
+  
+.user {
+    display: flex;
+    gap: .5rem;
+  }
+  
+.user__image {
+    border-radius: 50%;
+  }
+  
+.user__info > small {
+    color: #666;
+  }
+
+
+
+/* pricing section here  */
+
+.fifthSec{
+    height: auto;
+    width: 100%;
+    background-color: #02EBC1;
+    padding: 50px 0;
+}
+.fifthSec .h1{
+    color: #19141C;
+    font-size: 55px;
+    text-align: center;
+}
+
+
+.fifthSec .p{
+    font-size: 16px;
+    text-align: center;
+    color: #4D5C6D;
+}
+.fifthSec p{
+    color: #54595F;
+}
+.price {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 20px 0;
+}
+.topSec{
+    margin-top: 1rem;
+    color: #B1A35A !important;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.price span{
+    font-size: 25px;
+    font-weight: bolder;
+    color: #000
+}
+
+.price h1{
+    font-size: 70px;
+    font-weight: bolder;
+    color: #000;
+}
+.fifthCard{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 7px 7px 0px #0000004f;
+}
+
+.fifthCard ul{
+    list-style: none;
+    margin: 0;
+    padding: 0px 50px;
+    color: #54595F;
+}
+
+.getStartBtn{
+    height: auto;
+    width: 150px;
+    padding: 8px 15px;
+    margin: 0 auto;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* course section here  */
+.courseSec{
+    height: auto;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #19141C;
+    color: #fff;
+}
+
+/* contact section here  */
+.contactSec{
+    height: auto;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #02EBC1;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contactSec .btn-outline-success{
+    background-color: #19141C;
+    padding: 10px 50px !important;
+}
+
+/* footer here  */
+.footerSec{
+    height: auto;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #19141C;
+    color: #fff;
+}
+
+.footerSec .row{
+    align-items: center !important;
+}
+
+.socialIcons{
+    float: right;
+}
+.socialIcons ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    color: #02EBC1;
+}
+
+.socialIcons ul li{
+    padding-left: 10px;
+    font-size: 30px;
+    color: #02EBC1;
+}
+.socialIcons ul li:hover{
+    color: #fff;
+}
+
+/* contact form section here  */
+
+
+.fourthSec{
+    height: auto;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #02EBC1;
+}
+
+.fourthSec h2{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.fourthSec hr{
+    width: 12%;
+    border: 1px solid #19141C;
+    opacity: 1;
+    margin: 0 auto;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.fourthSec .btn-outline-success{
+    margin-top: 20px;
+    background-color: #19141C;
+    padding: 7px 40px !important;
+}
+
+.forms{
+    padding: 20px;
+    box-shadow: 0px 0px 20px 2px #0000002e;
+    border-radius: 5px;
+}
+
+.forms h3{
+    text-align: center;
+}
+
+
+@media screen and(max-width:767px) {
+    .navbar .btn-outline-success{
+        padding: 6px 40px;
+        margin-left: 0px;
+    }
+    .card{
+        width: 100%;
+    }
+
+    .navbar-toggler {
+        background-color: #02EBC1 !important;
+    }
+}
